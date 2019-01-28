@@ -1,0 +1,38 @@
+{
+  "name": "pambda-jwt-authorizer",
+  "version": "0.1.0",
+  "description": "Authorization with JWT",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/pambda-jwt-authorizer/issues"
+  },
+  "dependencies": {
+    "caseless-get": "0.0.3",
+    "jsonwebtoken": "^8.4.0",
+    "jwks-rsa": "^1.3.0",
+    "lambda-console": "0.0.2"
+  },
+  "devDependencies": {
+    "tape": "^4.9.2"
+  },
+  "homepage": "https://github.com/nak2k/pambda-jwt-authorizer",
+  "keywords": [
+    "lambda",
+    "pambda"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/pambda-jwt-authorizer.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "postpublish": "npm-sns",
+    "test": "tape test/*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
