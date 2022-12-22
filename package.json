@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "caseless-get": "^0.1.0",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "jwks-rsa": "^1.8.1",
     "lambda-callbackify": "^0.1.1",
     "lambda-console": "^0.1.2"
